@@ -7,5 +7,5 @@ https://unityroom.com/games/humanapex
 ・UI Samples
 
 使用ライブラリ
-・DOTWEEN
+・DOTween
 ・Unitask
