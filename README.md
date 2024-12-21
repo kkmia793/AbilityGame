@@ -2,10 +2,10 @@
 
 https://unityroom.com/games/humanapex
 
-# 使用外部アセット
+使用外部アセット
 ・Easy Save
 ・UI Samples
 
-# 使用ライブラリ
+使用ライブラリ
 ・DOTWEEN
 ・Unitask
