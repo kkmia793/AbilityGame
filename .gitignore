@@ -1,0 +1,70 @@
+# =============== #
+# Unity generated #
+# =============== #
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Uu]ser[Ss]ettings/
+UnityGenerated/
+/Assets/AssetStoreTools*
+*.pidb.meta
+
+
+# ===================================== #
+# Visual Studio / MonoDevelop generated #
+# ===================================== #
+.vs/
+.consulo/
+ExportedObj/
+*.svd
+*.csproj
+*.pidb
+*.suo
+*.sln
+*.user
+*.unityproj
+*.userprefs
+*.booproj
+*.tmp
+*.pdb
+
+# ============ #
+# OS generated #
+# ============ #
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+Thumbs.db
+
+# ============ #
+# Build   #
+# ============ #
+*.html
+*.unity3d
+*.apk
+*.unitypackage
+
+# ============ #
+# for others   #
+# ============ #
+*.log #log files, for some plugins
+*.pyc #python bytecode cache, for some plugins.
+sysinfo.txt #Unity3D Generated File On Crash Reports
+
+# EasySave関連ファイルを無視する #
+/Assets/Plugins/Easy Save 3/
+
+# JetBrains Rider / IntelliJ IDEA
+.idea/
+*.iml
+
+# Visual Studio Code
+.vscode/
+
+.vsconfig
