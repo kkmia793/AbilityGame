@@ -59,9 +59,6 @@ float score = Mathf.Clamp(100 - (variance / maxVariance) * 100, 0, 100);
 - `GameFlowManager` クラスでは、`UniTask` を活用してゲームフローを非同期に制御しています。
 - シーン遷移やカウントダウン、UI操作がスムーズに行えるようになり、ユーザー体験（UX）の向上に寄与しています。
 
-```csharp
-await uiManager.ShowCountdownAsync(3);  // 3秒間のカウントダウン
-```
 
 ### 4. デバッグモードの実装
 
@@ -98,7 +95,7 @@ private async UniTaskVoid StartNextGame()
 
 ### 6. シングルトンパターンの活用
 
-- `GameFlowManager` はシングルトンとして実装し、シーンを跨いだデータ保持や操作を一元化。
+- 比較的規模の小さいゲームのため、`GameFlowManager` はシングルトンとして実装し、シーンを跨いだデータ保持や操作を一元化。
 - メモリリークを防ぎ、ゲーム全体の状態管理を効率化しています。
 
 ```csharp
